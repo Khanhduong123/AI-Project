@@ -5,11 +5,7 @@ from torch.utils.data import DataLoader
 import numpy as np
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-
-from tqdm import tqdm  # Thư viện hiển thị thanh tiến trình
-
 from tqdm import tqdm
-from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
 
 def train(model, train_loader, valid_loader, criterion, optimizer, epochs, device):

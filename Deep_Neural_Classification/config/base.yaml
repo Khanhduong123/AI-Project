@@ -1,0 +1,4 @@
+MODEL:
+  epochs: 10
+  learning_rate: 0.001
+  checkpoint_path: "./checkpoint/checkpoint.pt"
